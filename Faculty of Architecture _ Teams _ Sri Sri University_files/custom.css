@@ -1,0 +1,4057 @@
+@font-face {
+
+font-family: "RobotoTrebuc"; src: url('../fonts/roboto/trebuc.ttf') format('truetype');
+
+}
+
+body {
+
+    text-align: justify;
+
+}
+
+h1, h2, h3, h4, h5, h6, .faculty_small_slider a{
+
+     font-family: "RobotoTrebuc" !important;
+
+}
+
+::selection {
+
+	background: #7f100f;
+
+	color: #fff;
+
+}
+
+.tt-orbit-montserrat h1, .tt-orbit-montserrat h2, .tt-orbit-montserrat h3, .tt-orbit-montserrat h4,
+
+.tt-orbit-montserrat h5, .tt-orbit-montserrat h6, .vision-circle-loader .vision-circle-number-wrap,
+
+.vision-progress-section h4, .vision-progress-section-vertical h4 {
+
+   font-size: 14px !important;
+
+}
+
+.navbar-left {
+
+    width: 100%;
+
+    text-align: right;
+
+}
+
+
+
+.table-responsive {
+
+    overflow-x: scroll;
+
+}
+
+.logo {
+
+    line-height: 70px;
+
+    height: 70px;
+
+ }
+
+ #nav-search {
+
+    z-index: 1000;
+
+ }
+
+ a.navbar-right.search-toggle {
+
+    background: #e75a23;
+
+}
+
+.past_event{
+
+	display: none;
+
+}
+
+.ppsPopupShell{
+
+    top: 0px !important;
+
+}
+
+.prospectus_btn {
+
+    position: fixed;
+
+    right: 0;
+
+    width: auto;
+
+    z-index: 10000;
+
+    top: 59%;
+
+}
+
+ /*loader css*/
+
+/* .spinner {
+
+    width: auto;
+
+    height: auto;
+
+    position: absolute;
+
+    top: 40%;
+
+    left: 50%;
+
+    margin: 0px -135px;
+
+}   
+
+.spinner img{
+
+ 	border: 2px solid #fff;
+
+    border-radius: 50%;
+
+    padding: 2px;
+
+ }
+
+#fountainTextG{
+
+	width:270px;
+
+	margin:auto;
+
+}
+
+.fountainTextG{
+
+	color:#fff;
+
+	font-size:35px;
+
+	text-decoration:none;
+
+	font-weight:normal;
+
+	font-style:normal;
+
+	float:left;
+
+	animation-name:bounce_fountainTextG;
+
+		-o-animation-name:bounce_fountainTextG;
+
+		-ms-animation-name:bounce_fountainTextG;
+
+		-webkit-animation-name:bounce_fountainTextG;
+
+		-moz-animation-name:bounce_fountainTextG;
+
+	animation-duration:2.09s;
+
+		-o-animation-duration:2.09s;
+
+		-ms-animation-duration:2.09s;
+
+		-webkit-animation-duration:2.09s;
+
+		-moz-animation-duration:2.09s;
+
+	animation-iteration-count:infinite;
+
+		-o-animation-iteration-count:infinite;
+
+		-ms-animation-iteration-count:infinite;
+
+		-webkit-animation-iteration-count:infinite;
+
+		-moz-animation-iteration-count:infinite;
+
+	animation-direction:normal;
+
+		-o-animation-direction:normal;
+
+		-ms-animation-direction:normal;
+
+		-webkit-animation-direction:normal;
+
+		-moz-animation-direction:normal;
+
+	transform:scale(.5);
+
+		-o-transform:scale(.5);
+
+		-ms-transform:scale(.5);
+
+		-webkit-transform:scale(.5);
+
+		-moz-transform:scale(.5);
+
+}#fountainTextG_1{
+
+	animation-delay:0.75s;
+
+		-o-animation-delay:0.75s;
+
+		-ms-animation-delay:0.75s;
+
+		-webkit-animation-delay:0.75s;
+
+		-moz-animation-delay:0.75s;
+
+}
+
+#fountainTextG_2{
+
+	animation-delay:0.9s;
+
+		-o-animation-delay:0.9s;
+
+		-ms-animation-delay:0.9s;
+
+		-webkit-animation-delay:0.9s;
+
+		-moz-animation-delay:0.9s;
+
+}
+
+#fountainTextG_3{
+
+	animation-delay:1.05s;
+
+		-o-animation-delay:1.05s;
+
+		-ms-animation-delay:1.05s;
+
+		-webkit-animation-delay:1.05s;
+
+		-moz-animation-delay:1.05s;
+
+}
+
+#fountainTextG_4{
+
+    animation-delay:1.5s;
+
+        -o-animation-delay:1.5s;
+
+        -ms-animation-delay:1.5s;
+
+        -webkit-animation-delay:1.5s;
+
+        -moz-animation-delay:1.5s;
+
+}
+
+#fountainTextG_5{
+
+	animation-delay:1.35s;
+
+		-o-animation-delay:1.35s;
+
+		-ms-animation-delay:1.35s;
+
+		-webkit-animation-delay:1.35s;
+
+		-moz-animation-delay:1.35s;
+
+}
+
+#fountainTextG_6{
+
+	animation-delay:1.5s;
+
+		-o-animation-delay:1.5s;
+
+		-ms-animation-delay:1.5s;
+
+		-webkit-animation-delay:1.5s;
+
+		-moz-animation-delay:1.5s;
+
+}
+
+#fountainTextG_7{
+
+	animation-delay:1.64s;
+
+		-o-animation-delay:1.64s;
+
+		-ms-animation-delay:1.64s;
+
+		-webkit-animation-delay:1.64s;
+
+		-moz-animation-delay:1.64s;
+
+}
+
+@keyframes bounce_fountainTextG{
+
+	0%{
+
+		transform:scale(1);
+
+		color:rgb(0,0,0);
+
+	}
+
+	100%{
+
+		transform:scale(.5);
+
+		color:rgb(255,255,255);
+
+	}
+
+}
+
+@-o-keyframes bounce_fountainTextG{
+
+	0%{
+
+		-o-transform:scale(1);
+
+		color:rgb(0,0,0);
+
+	}
+
+	100%{
+
+		-o-transform:scale(.5);
+
+		color:rgb(255,255,255);
+
+	}
+
+}
+
+@-ms-keyframes bounce_fountainTextG{
+
+	0%{
+
+		-ms-transform:scale(1);
+
+		color:rgb(0,0,0);
+
+	}
+
+	100%{
+
+		-ms-transform:scale(.5);
+
+		color:rgb(255,255,255);
+
+	}
+
+}
+
+@-webkit-keyframes bounce_fountainTextG{
+
+	0%{
+
+		-webkit-transform:scale(1);
+
+		color:rgb(0,0,0);
+
+	}
+
+	100%{
+
+		-webkit-transform:scale(.5);
+
+		color:rgb(255,255,255);
+
+	}
+
+}
+
+@-moz-keyframes bounce_fountainTextG{
+
+	0%{
+
+		-moz-transform:scale(1);
+
+		color:rgb(0,0,0);
+
+	}
+
+	100%{
+
+		-moz-transform:scale(.5);
+
+		color:rgb(255,255,255);
+
+	}
+
+}*/
+
+.whatsapp_icon{
+
+    position: fixed;
+
+    right: 0;
+
+    top: 15%;
+
+    width: auto;
+
+    z-index: 1000;
+
+}
+
+/*1313131313131313131313131313131313131313131313131*/
+
+.ubermenu-sub-indicators .ubermenu-has-submenu-drop > .ubermenu-target > .ubermenu-sub-indicator {
+
+    right: 0px;
+
+}
+
+/*1313131313131313131313131313131313131313131313131*/
+
+.ubermenu.ubermenu-disable-submenu-scroll .ubermenu-item>.ubermenu-submenu.ubermenu-submenu-type-mega{ 
+
+    height: 480px;
+
+    overflow-y: scroll !important;
+
+}
+
+.ubermenu-skin-black-white-2 {
+
+    font-size: 14px !important;
+
+    float: right;
+
+}
+
+.widget-title {
+
+    background: #7f100f;
+
+    padding: 10px;
+
+    color: #fff;
+
+}
+
+.fees_modal .form-control{
+
+    border: 1px solid #666 !important;
+
+    color: #666 !important;
+
+}
+
+#custom_html-8 {
+
+    padding: 0;
+
+}
+
+table:not(.shop_table) > tbody > tr:hover > td{
+
+    background: none !important;
+
+    color: #000;
+
+}
+
+.ug_div{
+
+    display:none;
+
+}
+
+.ppsPopupShell  {
+
+    position: absolute;
+
+    width: auto;
+
+    right: 0 !important;
+
+}
+
+.scholarship_form select, .scholarship_form input[type="text"], .scholarship_form input[type="email"], .scholarship_form input[type="tel"]  {
+
+    height: 18px;
+
+}
+
+.scholarship_pop_up select, .scholarship_pop_up input[type="text"], .scholarship_pop_up input[type="email"], .scholarship_pop_up input[type="tel"] {
+
+    height: 34px;
+
+}
+
+#adword_form h2 {
+
+    font-size: 30px;
+
+    text-align: center;
+
+    color: #f90;
+
+}
+
+#adword_form h1 {
+
+    font-size: 40px;
+
+    text-align: center;
+
+    color: #f90;
+
+    margin-bottom: 0;
+
+    text-transform: uppercase;
+
+}
+
+.ppsPopupShell .ppsPopupClose {
+
+    right: -25px;
+
+}
+
+/*loader css end*/
+
+ a.logo img {
+
+    height: 120px;
+
+    background: none repeat scroll 0 0 #7f100f;
+
+    border-bottom: 2px solid #FFF !important;
+
+    border-left: 2px solid #FFF !important;
+
+    border-radius: 1px 1px 70px 70px;
+
+    border-right: 2px solid #FFF !important;
+
+    box-shadow: 0 2px 10px #000000ba;
+
+    margin: 0;
+
+    padding: 10px 2px 2px !important;
+
+    position: absolute;
+
+    z-index: 999;
+
+}
+
+#you_tube_video iframe{
+
+	width: 100%;
+
+}
+
+.thank_you{
+
+    font-size: 25px;
+
+}
+
+.thank_you .vision-icon-box h1{
+
+	font-size: 45px;
+
+}
+
+.vision-description p, .vision-circle-loader p, .vision-circle-loader-icon p {
+
+    font-size: 14px;
+
+}
+
+#faculty_slider marquee{
+
+	background: #7f100f;
+
+}
+
+#faculty_slider marquee ul{
+
+    margin-top:5px;
+
+}
+
+#faculty_slider marquee:hover{
+
+	cursor: pointer;
+
+}
+
+#faculty_slider marquee li{
+
+	color: #fff;
+
+}
+
+.owl-stage-outer h3 {
+
+    height: 45px;
+
+}
+
+.search_form input {
+
+    border: 2px solid #666;
+
+    border-radius: 3px;
+
+    height: 43px;
+
+    color: #fff;
+
+    margin-bottom: 10px !important;
+
+}
+
+.search_form h3 {
+
+    padding: 15px 0px;
+
+}
+
+.ttshowcase_slider {
+
+    padding-top: 30px;
+
+}
+
+.tt-slider-controls {
+
+    margin-top: 0px;
+
+}
+
+.ttshowcase_rl_title.reviewer {
+
+    color: #000;
+
+}
+
+#tt-slider-prev i, #tt-slider-next i  {
+
+    color: #fff;
+
+}
+
+#my_blog_post .vc_btn3-container{
+
+	text-align: center !important;
+
+	margin-bottom: 10px;
+
+}
+
+#my_blog_post .vc_general.vc_btn3{
+
+   border:none;
+
+   background: #7f100f;
+
+}
+
+#my_blog_post .vc_general.vc_btn3:focus, #my_blog_post .vc_general.vc_btn3:hover {
+
+   border:none;
+
+   background: #a23938;
+
+}
+
+#my_blog_post .vc_grid-item-mini{
+
+	background: #f1f1f1;
+
+    padding: 5px 5px 10px 5px;
+
+    box-shadow: 1px 1px 1px 1px rgba(99, 87, 87, 0.26);
+
+}
+
+#my_blog_post .vc_grid-filter.vc_grid-filter-size-md .vc_grid-filter-item {
+
+    border: 1px solid #f90;
+
+    color: #f90;
+
+}
+
+#my_blog_post .vc_grid-filter.vc_grid-filter-color-orange>.vc_grid-filter-item.vc_active, .vc_grid-filter.vc_grid-filter-color-orange>.vc_grid-filter-item:hover{
+
+	background-color: #F90;
+
+}
+
+#main-nav .navbar-nav>li>a:before {
+
+    border-left:none;
+
+}
+
+.home_small_slider{
+
+    z-index: 500;
+
+}
+
+.home_small_slider .icon-next, .home_small_slider .icon-prev{ 
+
+    background: #7f100f;
+
+    color: #fff;
+
+    padding: 0px 10px 5px;
+
+}
+
+header .dropdown-menu {
+
+    font-size: 14px;
+
+    background-color: #7f100f;
+
+} 
+
+header .dropdown-submenu>.dropdown-menu {
+
+    margin-left: -1px;
+
+}  
+
+header .dropdown-menu>li>a:hover, header .dropdown-menu>li>a:focus, 
+
+header .multi-column > .dropdown-menu li.menu-item:hover, 
+
+header .multi-column > .dropdown-menu .menu-column li.menu-item:hover{ 
+
+  	background-color: #a54d4f;
+
+}
+
+header .dropdown-menu li.current_page_item {
+
+    background-color: #a54d4f;
+
+}
+
+#main-nav .navbar {
+
+    min-height: 70px;
+
+}
+
+#main-nav .navbar-nav>li>a {
+
+    padding-top: 25px;
+
+    padding-bottom: 20px;
+
+    height: 70px;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+header .dropdown-menu>li>a {
+
+    color: #fff;
+
+    border-bottom: 1px solid #a54d4f;
+
+    text-transform: inherit;
+
+}
+
+.btn_mdm .vc_btn3.vc_btn3-size-sm{
+
+	padding: 11px 40px
+
+}
+
+/*mega menu*/
+
+.sidebar_factfile table.fact_table {
+
+    margin-bottom: 20px;
+
+    width: 350px;
+
+}
+
+.more_fact_file table.fact_table {
+
+    margin-bottom: 20px;
+
+    width: 350px;
+
+}
+
+.col-sm-6 table.fact_table{
+
+     margin-bottom: 20px;
+
+}
+
+table.fact_table {
+
+    border: 2px solid #fff;
+
+    width: 390px;
+
+}
+
+th.fact_title {
+
+    background: #7f100f;
+
+    color: #fff;
+
+}
+
+th.fact_icon {
+
+    width: 70px;
+
+    padding: 5px !important;
+
+    background: #bdb293 !important;
+
+}
+
+th.fact_txt{
+
+	background: #e5d6af !important;
+
+	width: 310px;
+
+}
+
+table.fact_table tr{
+
+    border-bottom: 2px solid #fff;
+
+}
+
+th.fact_txt h1 {
+
+	color: #7f100f;
+
+    font-size: 26px;
+
+    font-weight: 900;
+
+    margin: 0px;
+
+}
+
+th.fact_txt strong {
+
+    font-size: 31px;
+
+    font-weight: 900;
+
+}
+
+th.fact_txt h1 strong {
+
+	color: #000;
+
+    font-size: initial;
+
+    vertical-align: middle;
+
+    font-weight: normal;
+
+}
+
+th.fact_txt.p {
+
+    color: #000 !important;
+
+    font-weight: normal;
+
+}
+
+th.fact_txt.p h2 {
+
+    text-align: center;
+
+    margin: 0px;
+
+    font-size: 40px;
+
+    line-height: 30px;
+
+    color: #bdb293;
+
+}
+
+th.fact_txt.rupee strong {
+
+    font-weight: normal;
+
+    font-size: inherit;
+
+    float: right;
+
+    color: #000;
+
+}
+
+.fact_table ul {
+
+    padding-left:20px; 
+
+}
+
+.fact_table ul li {
+
+    color: #000 !important;
+
+    font-weight: normal;
+
+}
+
+th.fact_note {
+
+    background: #fff !important;
+
+    color: #000 !important;
+
+    font-weight: normal;
+
+    font-size: 14px;
+
+}
+
+th.fact_note.pb{
+
+	padding-bottom: 0px !important;
+
+	font-size: 12px;
+
+}
+
+th.fact_note.pt{
+
+	padding-top: 0px !important;
+
+	font-size: 12px;
+
+}
+
+.vision-accordion dt{
+
+	font-size: 17px;
+
+}
+
+.vision-accordion dt:before {   
+
+    left: -30px;
+
+    top: 18px;
+
+}
+
+.vision-accordion dd{
+
+	overflow-x: scroll;
+
+    padding: 20px 0px 0px;
+
+    margin-bottom: 20px !important;
+
+}
+
+.fee_details_tabs .table{
+
+	margin-bottom: 2px;
+
+} 
+
+dt.current{
+
+	color: #fff !important;
+
+	background: #fff !important;
+
+}
+
+dt.current:before{
+
+	color: #7f100f !important;
+
+}
+
+.vision-accordion dt.current{
+
+	color: #7f100f !important;
+
+}
+
+.main-color-2-bg {
+
+    background-color: #7f100f;
+
+}
+
+.ubermenu-skin-black-white-2.ubermenu-responsive-toggle:hover {
+
+    background: #7f100f;
+
+    color: #ffffff;
+
+    border: 1px solid #fff;
+
+}
+
+.ubermenu-skin-black-white-2.ubermenu-responsive-toggle {
+
+    background: #7f100f;
+
+    border: 1px solid #bb8787;
+
+    box-shadow: none;
+
+    margin: 11px;
+
+    width: 110px;
+
+    text-align: center;
+
+    float: right;
+
+}
+
+.main-menu.affix .sticky-gototop {
+
+    height: 71px;
+
+    width: 50px;
+
+    line-height: 71px;
+
+    color: #fff;
+
+}
+
+.main-menu.affix .sticky-gototop:hover {
+
+    color: #000;
+
+}
+
+#main-nav .main-menu.affix.sticky-light, #main-nav .main-menu.affix.sticky-light:hover {
+
+    background: #7f100f;
+
+}
+
+.ubermenu-bound .ubermenu-submenu-type-mega {
+
+    min-width: 100%;
+
+    width: 100%;
+
+}
+
+.ubermenu .ubermenu-target-text {
+
+    font-family: "RobotoTrebuc" !important;
+
+    font-size: 14px;
+
+    font-weight: normal;
+
+}
+
+.ubermenu.ubermenu-disable-submenu-scroll .ubermenu-item>.ubermenu-submenu.ubermenu-submenu-type-mega{
+
+	left: 0%;
+
+}
+
+.ubermenu-skin-black-white-2 .ubermenu-item-level-0.ubermenu-current-menu-item > .ubermenu-target, .ubermenu-skin-black-white-2 .ubermenu-item-level-0.ubermenu-current-menu-parent > .ubermenu-target, .ubermenu-skin-black-white-2 .ubermenu-item-level-0.ubermenu-current-menu-ancestor > .ubermenu-target {
+
+    color: #ffffff;
+
+    font-family: "RobotoTrebuc";
+
+}
+
+.ubermenu-skin-black-white-2 .ubermenu-item-level-0:hover > .ubermenu-target, .ubermenu-skin-black-white-2 .ubermenu-item-level-0.ubermenu-active > .ubermenu-target {
+
+    color: #ffffff;
+
+    background: #a26365;
+
+}
+
+.ubermenu-skin-black-white-2 .ubermenu-item-level-0 > .ubermenu-target{
+
+	padding: 28px 15px;
+
+	outline: none;
+
+}
+
+.ubermenu-sub-indicators .ubermenu-has-submenu-drop>.ubermenu-target:after {
+
+    right: 0px;
+
+}
+
+.ubermenu .ubermenu-submenu-type-flyout>.ubermenu-item {
+
+    min-width: 240px;
+
+}
+
+.ubermenu .ubermenu-colgroup .ubermenu-column, .ubermenu .ubermenu-custom-content-padded, .ubermenu .ubermenu-nonlink, .ubermenu .ubermenu-retractor, .ubermenu .ubermenu-submenu-padded, .ubermenu .ubermenu-submenu-type-stack > .ubermenu-item-normal > .ubermenu-target, .ubermenu .ubermenu-target, .ubermenu .ubermenu-widget, .ubermenu-responsive-toggle {
+
+    padding: 10px 20px;
+
+}
+
+.ubermenu-skin-black-white-2.ubermenu-horizontal .ubermenu-item-level-0 > .ubermenu-submenu-drop,.ubermenu-skin-black-white-2 .ubermenu-submenu.ubermenu-submenu-drop {
+
+    border-top: none;
+
+    -webkit-box-shadow: 0px 0px 23px 2px rgba(0,0,0,0.75);
+
+	-moz-box-shadow: 0px 0px 23px 2px rgba(0,0,0,0.75);
+
+	box-shadow: 0px 0px 23px 2px rgba(0,0,0,0.75);
+
+}
+
+.ubermenu .ubermenu-item .ubermenu-submenu-type-mega .ubermenu-submenu-drop {
+
+    border-top: 1px solid #fff;
+
+}
+
+.ubermenu-skin-black-white-2 .ubermenu-submenu .ubermenu-target:hover, .ubermenu-skin-black-white-2 .ubermenu-submenu .ubermenu-active > .ubermenu-target {
+
+    color: #ffffff;
+
+}
+
+.ubermenu-skin-black-white-2 .ubermenu-submenu, .ubermenu-skin-black-white-2 .ubermenu-submenu .ubermenu-target{
+
+	color: #ffffff;
+
+	border-bottom: none;
+
+}
+
+.ubermenu-skin-black-white-2 .ubermenu-submenu .ubermenu-current-menu-item > .ubermenu-target{
+
+	color: #ffffff;
+
+}
+
+.ubermenu-skin-black-white-2 .ubermenu-submenu .ubermenu-item-header > .ubermenu-target {
+
+    font-weight: bold;
+
+    background:#7f100f;
+
+    color:#fff;
+
+}
+
+.ubermenu .ubermenu-submenu-type-stack>.ubermenu-item-normal>.ubermenu-target{
+
+	padding: 3px 20px;
+
+}
+
+.ubermenu .ubermenu-autocolumn, .ubermenu .ubermenu-submenu-type-stack {
+
+    padding-top: 0px;
+
+    padding-bottom: 10px;
+
+}
+
+.ubermenu .ubermenu-submenu .ubermenu-submenu-type-stack{
+
+	border-bottom: none;
+
+}
+
+.ubermenu-skin-black-white-2 .ubermenu-submenu, .ubermenu-skin-black-white-2 .ubermenu-submenu .ubermenu-target {
+
+    color: #7f100f;
+
+    border-bottom: none;
+
+}
+
+.ubermenu-skin-black-white-2 .ubermenu-submenu .ubermenu-target:hover, .ubermenu-skin-black-white-2 .ubermenu-submenu .ubermenu-active > .ubermenu-target {
+
+    color: #7f100f;
+
+}
+
+.ubermenu-skin-black-white-2 .ubermenu-submenu .ubermenu-item-header > .ubermenu-target span {
+
+    color: #fff;
+
+}
+
+.ubermenu-skin-black-white-2 .ubermenu-item-level-0.ubermenu-current-menu-item > .ubermenu-target, .ubermenu-skin-black-white-2 .ubermenu-item-level-0.ubermenu-current-menu-parent > .ubermenu-target, .ubermenu-skin-black-white-2 .ubermenu-item-level-0.ubermenu-current-menu-ancestor > .ubermenu-target {
+
+    background: #a26365;
+
+}
+
+li#menu-item-2779 {
+
+    border-left: 1px solid #fff;
+
+    border-right: 1px solid #fff;
+
+}
+
+.nav.navbar-nav.navbar-right{
+
+    width: 90%;
+
+    float: right !important;
+
+    text-align: right;
+
+}
+
+.ubermenu.ubermenu-main{
+
+    width: 100%;
+
+    text-align: right;
+
+    margin: 0 auto;
+
+}
+
+.ubermenu.ubermenu-main ul {
+
+    float: right;
+
+}
+
+#ubermenu-nav-main-63-primary-menus{
+
+    float: right;
+
+}
+
+/*end mega menu*/
+
+#careers_pg {
+
+	padding-left: 44%;
+
+    padding-right: 44%;
+
+    margin-top: 40px;
+
+	text-align: justify;
+
+}
+
+#careers_pg .wpb_column {
+
+	background-color: #ededed;
+
+}
+
+.vc_tta.vc_general .vc_tta-tab>a {
+
+    padding: 10px 10px !important;
+
+    font-size: 15px !important;
+
+}
+
+.ls-bar-timer{
+
+    background: #d9bd49;
+
+    border-bottom: 2px solid #7f100f;
+
+ }
+
+.main-color-1-bg, .main-color-1-bg-hover:hover {
+
+    background-color: #7f100f;
+
+}
+
+.title_text h4 {
+
+    font-size: 28px;
+
+    color: #a26912;
+
+}
+
+.vc_separator h4 {
+
+    font-size: 28px;
+
+}
+
+.chart{
+
+	display: none;
+
+}
+
+#n2-ss-2.n2-ss-desktop .n2-ss-widget-display-desktop.n2-ib, #n2-ss-2.n2-ss-tablet .n2-ss-widget-display-tablet.n2-ib, #n2-ss-2.n2-ss-mobile .n2-ss-widget-display-mobile.n2-ib {
+
+    width: 30px !important;
+
+    height: 30px !important;
+
+    background: #7f100f;
+
+    color: #fff;
+
+}
+
+.tweet_box iframe{
+
+    border: 1px solid rgb(216, 213, 213) !important;
+
+    height:380px !important;
+
+    width: 100%;
+
+    float: left;
+
+}
+
+.blog_box iframe{
+
+    border: 1px solid rgb(216, 213, 213) !important;
+
+    height:380px !important;
+
+    width: 100%;
+
+    float: left;
+
+}
+
+.blog_box .wpb_text_column{
+
+ 	margin: 0px;
+
+}
+
+.insta_box .vc_column-inner{
+
+    border: 1px solid rgb(216, 213, 213) !important;
+
+    height:380px !important;
+
+    margin: 0px 9px 3px 9px;
+
+}
+
+#social_icon_box {
+
+    width: 100%;
+
+    float: left;
+
+    text-align: center;
+
+    margin: 0 auto;
+
+}
+
+.social_img {
+
+    text-align: center;
+
+    width: 15%;
+
+    display: inline-block;
+
+}
+
+.social_img img {
+
+    width: 110px;
+
+}
+
+.admissions_content{
+
+	text-align: center;
+
+}
+
+.admissions_box{
+
+	background: rgba(162, 105, 18, 0.71);
+
+    border-radius: 50%;
+
+    display: inline-block;
+
+    padding: 7em 5em;
+
+}
+
+.admissions_content h2 {
+
+	color: #fff;
+
+	font-size: 36px;
+
+}
+
+.admissions_content h3 {
+
+	color: #fff;
+
+}
+
+.admissions_box p {
+
+    color: #000;
+
+}
+
+.admissions_box p b {
+
+    color: #000;
+
+    font-size: 20px;
+
+}
+
+a.conf_link {
+
+    background: #7f100f;
+
+    padding: 10px;
+
+    color: #fff;
+
+}
+
+li#nav-menu-item-1559 {
+
+    display: none;
+
+}
+
+nav#top_navigation {
+
+    background-color: #561f20;
+
+}
+
+ul.social-links {
+
+    list-style-type: none;
+
+    margin-bottom: 0px;
+
+}
+
+ul.social-links li {
+
+    display: inline-block;
+
+    margin-bottom: 0px;
+
+}
+
+ul.social-links a {
+
+    padding-top: 0px !important;
+
+    padding-bottom: 0px !important;
+
+}
+
+a.sub_link1,a.sub_link2,a.sub_link3 {
+
+    display: inline-block !important;
+
+}
+
+#top-nav .navbar-nav>li:last-child>a {
+
+    border-right: none;
+
+}
+
+a.sub_link1{
+
+    border-right: 0px !important;
+
+    padding-right: 0px !important;
+
+}
+
+a.sub_link2 {
+
+    border: 0px !important;
+
+}
+
+a.sub_link3 {
+
+    border-left: 0px !important;
+
+}
+
+.apply_now_btn {
+
+    background: #e75a23;
+
+}
+
+.apply_now_btn a {
+
+    padding: 10px 22px !important;
+
+    border: 0px !important;
+
+    line-height: 19px !important;
+
+}  
+
+.fb_btn, .twt_btn{
+
+    float: left;
+
+    margin-right: 10px;
+
+}
+
+.life_ssu h4, .life_ssu .wpb_heading{
+
+	color: #fff;
+
+}
+
+.ri-grid {
+
+    margin: 10px auto 30px;
+
+}
+
+.ri-grid.apif-ri-grid li {
+
+    height: 100px !important;
+
+    width: 100px !important;
+
+    margin: 6px 9px;
+
+}
+
+.orange_btn{
+
+	background: #e75a23;
+
+	padding: 10px 24px !important;
+
+	border-radius: 3px;
+
+} 
+
+.ri-grid.apif-ri-grid li:last-child{
+
+    display: none;
+
+}
+
+ul.counter_list{
+
+	list-style: none;
+
+    margin: 0;
+
+    padding: 20px;
+
+    display:block;
+
+    clear:both;
+
+}
+
+ul.counter_list li{
+
+    box-sizing: border-box;
+
+    -moz-box-sizing: border-box; 
+
+    -webkit-box-sizing: border-box; 
+
+    border: 1px solid grey;
+
+    margin-top: -1px;
+
+    padding: 8px;
+
+    text-align: center;
+
+} 
+
+ul.counter_list strong{
+
+    padding: 8px 10px;
+
+    font-weight: bold;
+
+    line-height: 1;
+
+    color: #fff;
+
+    text-align: center;
+
+    white-space: nowrap;
+
+    background-color: #999;
+
+    border-radius: 50%;
+
+    float: right;
+
+}
+
+.n2-ss-section-main-content.n2-ss-layer-content.n2-ow{
+
+	padding: 0px;
+
+} 
+
+.simple-testimonials-showcase .sts-wrap .quote-layout .testimonial-content {
+
+    font-size: 18px;
+
+    color: black !important;
+
+}
+
+p.testimonial-author {
+
+    font-size: 16px;
+
+    color: black !important;
+
+}
+
+.icon-quote {
+
+    display: none;
+
+}
+
+.quote-layout-wrapper .slick-prev, .quote-layout-wrapper .slick-next {
+
+    display: none !important;
+
+}
+
+.quote-layout-wrapper .slick-dots li button::before {
+
+    color: #7f100f;
+
+}
+
+.quote-layout-wrapper .slick-dots li.slick-active button::before {
+
+    color: #7f100f;
+
+}
+
+.orbit-testimonial-1, .orbit-testimonial-2 {
+
+    margin-top: 1px;
+
+    text-align: center;
+
+}
+
+.orbit-testimonial-1 .orbit-direction-nav, .orbit-testimonial-2 .orbit-direction-nav {
+
+    list-style: none;
+
+}
+
+.orbit-testimonial-1 .user-section {
+
+    margin-top: 0px;
+
+}
+
+.orbit-control-nav.orbit-control-paging {
+
+    display: none;
+
+}
+
+.orbit-testimonial-1 .orbit-slider-content p {
+
+    margin: 0;
+
+    padding: 0;
+
+    text-align: left;
+
+}
+
+.team-member {
+
+    border: 1px solid #e8e8e8;
+
+}
+
+.member-name span {
+
+    color: #fff;
+
+}
+
+.member-img {
+
+    padding: 30px !important;
+
+}
+
+.member-name {
+
+    text-align: center;
+
+    height: 45px;
+
+}
+
+.member-desc {
+
+    font-size: 17px !important;
+
+    line-height: 20px !important;
+
+    text-align: center;
+
+    height: 50px;
+
+}
+
+.theme_9 .member-job, .member-email, .member-web, .member-phone, .member-location, .member-social, .member-skills-wrapper{
+
+    display: none !important;
+
+}
+
+li.vc_tta-tab.vc_active {
+
+    border-top: 1px solid #1b396b;
+
+    border-left: 1px solid #1b396b;
+
+    border-right: 1px solid #36507c;
+
+}
+
+#dr_phd_f .orbit-tabs-style-1 .orbit-nav>li>a{
+
+    padding: 15px 0px;
+
+    font-size: 13px;
+
+}
+
+#dr_phd_f h2{
+
+    color: #fff;
+
+}
+
+.quick-sc {
+
+	float:left;
+
+	height:550px;
+
+	position:relative;
+
+	left:0px;
+
+	width: 100%;
+
+}
+
+.quickcont {
+
+    position: fixed;
+
+    right: -310px;
+
+    top: 37%;
+
+    width: auto;
+
+    z-index: 1000;
+
+}
+
+.quick-btn {
+
+    background: url(https://srisriuniversity.edu.in/wp-content/themes/university/images/quicks-links.png) no-repeat 0 0;
+
+    float: left;
+
+    height: 125px;
+
+	margin-left: 1px;
+
+    text-indent: -9999px;
+
+    width: 40px;
+
+}
+
+.quicksection {
+
+    background: #ffffff;
+
+    float: right;
+
+    height: auto;
+
+    padding: 0;
+
+    width: 350px;
+
+}
+
+.quick-sc .wpcf7-validation-errors {
+
+    border: 0;
+
+    float: left;
+
+    color: #fff;
+
+}
+
+.wpcf7-mail-sent-ok {
+
+    border: 2px solid #398f14;
+
+    float: left;
+
+    color: #398f14;
+
+}
+
+#about_srisri{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/guruji-777741-f8314bf417c3.jpg);
+
+    background-position: top center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;    
+
+}
+
+.orbit-image-box-1 .orbit-text-wrap .callout-heading-wrap h3 {
+
+    padding: 10px 0 20px;
+
+    font-size: 20px;
+
+}
+
+.orbit-text-wrap .callout-details-wrap, .orbit-text-wrap .callout-details-wrap p {
+
+     font-size: 18px;
+
+}
+
+a.vision-button.cool-blue, .tt-cb-title-cool-blue, .tt-dropcap-cool-blue .tt-dropcap-square, .tt-dropcap-cool-blue .tt-dropcap-round, .tt-tabcolor-cool-blue.orbit-tabs-style-1 .orbit-nav > li.active > a {
+
+    background-color: #7f100f;
+
+    background-image: none;
+
+}
+
+.vision-contentbox-content h1, .vision-contentbox-content h2, .vision-contentbox-content h3, .vision-contentbox-content h4, .vision-contentbox-content h5, .vision-contentbox-content h6 {
+
+    font-size: 18px;
+
+}
+
+.vision-contentbox-title span {
+
+    overflow: hidden;
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+
+    font-size: 16px;
+
+    font-family: "RobotoTrebuc" !important;
+
+}
+
+.vision-contentbox-title {
+
+    padding: 0px 20px;
+
+ }
+
+ .mile_sep {
+
+    padding: 30px 0px 0px;
+
+}
+
+.mile_sep h4 {
+
+    font-size: 30px;
+
+}
+
+.campus_counter h4, .state_counter h4, .country_counter h4 {
+
+    font-size: 17px;
+
+}
+
+.vision-contentbox-content {
+
+    color: #5f5f5f;
+
+    font-size: 16px;
+
+}
+
+.orbit-testimonial-1{
+
+    background: #f8f8f8;
+
+}
+
+.orbit-testimonial-1 .user-section {
+
+    width: 20%;
+
+}
+
+.orbit-testimonial-1 .orbit-slider-content p {
+
+    width: 80%;
+
+    padding-right: 20px;
+
+    font-size: 19px !important;
+
+    text-align: center;
+
+}
+
+.orbit-testimonial-1 .orbit-slider-content .user-section p {
+
+    padding: 0px;
+
+    width: 100%;
+
+    text-align: center;
+
+}
+
+.bx-viewport{
+
+	height: 190px;
+
+}
+
+.ttshowcase_rl_title {
+
+    font-weight: normal !important;
+
+}
+
+.tt_theme_speech .tt_info-left {
+
+    padding-right: 20px;
+
+    width: 25%;
+
+}
+
+.faculty_hod_pro{
+
+    background: #e8e8e8;
+
+}
+
+ul.quick_link {
+
+    padding-left: 10px;
+
+}
+
+ul.quick_link li {
+
+    list-style-type: none;
+
+}
+
+footer.main-color-2-bg, .un-separator .main-color-2-bg, .main-color-2-bg.back-to-top {
+
+    background-color: #7f100f;
+
+} 
+
+#bottom .section-inner{
+
+	padding-top: 20px;
+
+}
+
+#bottom .widget {
+
+    padding-bottom: 10px;
+
+}
+
+#bottom .footer-content{
+
+	padding: 0px;
+
+	min-height: 65px;
+
+	padding-bottom: 20px;
+
+}   
+
+.footer_bottom {
+
+    border-top: 2px solid #7f100f;
+
+    padding-bottom: 20px;
+
+    background: #e8e8e8;
+
+    font-size: 13px;
+
+}
+
+.footer_bottom ul {
+
+    padding-left: 0px;
+
+    margin: 0px;
+
+}
+
+.footer_bottom li {
+
+    list-style-type: none;
+
+}
+
+.footer_bottom li:before {
+
+  content: "\f061";
+
+  font-family: 'FontAwesome';
+
+  font-size: 13px;
+
+  padding: 3px;
+
+}
+
+ul#pre-pre-footer li {
+
+    margin: 0px 0px 10px;
+
+    float: left;
+
+    width: 100%;
+
+}
+
+ul#pre-pre-footer li a {
+
+    background: #7f100f;
+
+    width: 100%;
+
+    float: left;
+
+    color: #fff;
+
+    padding: 1px 30px;
+
+    text-align: left;
+
+}
+
+ul#pre-pre-footer li a:hover {
+
+    color: #bdb8b8;
+
+}
+
+ul#pre-pre-footer li:before {
+
+    display: none;
+
+}   
+
+.campus_counter h3 {
+
+    font-size: 50px;
+
+}
+
+.campus_counter{
+
+    width: 100%;
+
+    float: left;
+
+} 
+
+.state_counter, .country_counter {
+
+    width: 50%;
+
+    float: left;
+
+}
+
+.teamFilterlink-small_button:hover {
+
+    background-color: #7f100f !important;
+
+}
+
+.teamFilter-wrapper-small_button .current {
+
+    background-color: #7f100f !important;
+
+}
+
+.pro_back{
+
+	background: #0e0e0ead;
+
+	padding: 10px;
+
+}
+
+#wssu{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/why-ssu-1.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;    
+
+}
+
+/*program img*/
+
+#mba_general{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/mba_general_1.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px; 
+
+}
+
+#mba_agri{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/agri_2.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px; 
+
+}
+
+
+
+#mba_ent{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/ent_1.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px; 
+
+}
+
+#msc_ost{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/msc_ost-1.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px; 
+
+}
+
+#ma_govn{
+
+	background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/ggpp-2.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px; 	
+
+}
+
+#ma_yoga{
+
+	background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/ma-yoga-2-2.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px; 		
+
+}
+
+#ma_journ{
+
+	background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/p5.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px; 		
+
+}
+
+#ma_sansk{
+
+	background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/ma_snk_img.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px; 	
+
+}
+
+#bba{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/BBABCOmTT.png);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;   
+
+}
+
+#bcom{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/bcom1.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;   
+
+}
+
+#bcom_vttm{
+
+	background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/bcom_travel_1-1.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;
+
+}
+
+#bvrm{
+
+	background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/bcom-vrm1.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;	
+
+}
+
+#ba{
+
+	background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/b-arch-2-2.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;	
+
+}
+
+#bsc_com_sic{
+
+	background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/B.Sc-Computer-Science-1.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;	
+
+}
+
+#ba_yoga{
+
+	background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/ba-yoga-2-2.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;	
+
+}
+
+#ba_dance{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/odissi_dance-2.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;  
+
+}
+
+#ba_music{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/b-music_1-1.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;   
+
+}
+
+#ba_paint{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/ba_painting-2-2.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;   
+
+}
+
+#bsc_agri{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/bsc_agri_2-2.jpg);
+
+   background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;      
+
+}
+
+#bsc_physics{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/B.Sc_.-Physics-Hons.png);
+
+   background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;      
+
+}
+
+#msca_physics{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/M.Sc_.Applied-Mathematics.jpg);
+
+   background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;      
+
+}
+
+#dr_phd{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/dr_phd_1.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;    
+
+}
+
+#pgdm{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/pgdm_1.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;   
+
+}
+
+#pgdsm{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/pgdsm.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;   
+
+}
+
+#six_monthseng{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/six_monthseng.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;   
+
+}
+
+#dcbs{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/dcbs_img.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;   
+
+}
+
+#new_c{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/new_course_image.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;   
+
+}
+ 
+
+.program h1, .program p {
+
+    color: #fff;
+
+}
+
+.program h1, .program p{
+
+    color: #fff;
+
+}
+
+.title_back{
+
+	text-align: center;
+
+}
+
+.title_back .vc_btn3-container {
+
+    display: inline-block;
+
+    padding: 0px 2%;
+
+}
+
+/*faculty pages*/
+
+.faculty .title_back .vc_column-inner{
+
+	background: none;
+
+}
+
+.title_back .wpb_text_column{
+
+	margin: 0px;
+
+}
+
+.faculty .vc_column-inner {
+
+	background: rgba(14, 14, 14, 0.68);
+
+}
+#mast_int{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2018/11/29th-Septemebr-event-pic-3.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;   
+
+}
+
+
+
+#facts_phy{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2019/02/Orion-5.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;   
+
+}
+
+#msc_phy{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2019/08/orient.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;   
+
+}
+
+
+
+
+#msc_math{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2019/08/invigorating-group-discussion-sessions-and-interviews.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;   
+
+}
+
+#ba_f{
+
+	background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/b-arch-2.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;	
+
+}
+
+#bsc_agri_f{
+
+	background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/bsc_agri_2-2.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;
+
+}
+
+#dept_eng{
+
+	background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/dept_eng.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;
+
+}
+
+#pcms_pg{
+
+	background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/fcms-pg-3.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;	
+
+}
+
+#b_ost{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/b_ost_2.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;
+
+}
+
+#doys{
+
+	background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/dep_yoga-2.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;
+
+}
+
+#ma_sansk_f{
+
+	background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/ma_snk_img.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;	
+
+}
+
+#djmc_f{
+
+	background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/dep_jmc.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;	
+
+}
+
+#am_nm{
+
+	background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/animation_med-2.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;	
+
+}
+
+#dggpp{
+
+	background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/ggpp-2.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;	
+
+}
+
+#dr_phd_f{
+
+	background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/dr_phd_11.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 230px;
+
+    padding-bottom: 130px;	
+
+}
+
+#pcms_ug{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2017/09/focmp-ug.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+  	  background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px;
+
+}
+
+ #dip_yog{
+
+    background: url(https://srisriuniversity.edu.in/wp-content/uploads/2018/11/10-Sept-event-pic-5.jpg);
+
+    background-position: center;
+
+    background-size: inherit;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-top: 130px;
+
+    padding-bottom: 130px; 
+
+}
+
+
+.faculty h1, .faculty ul.orbit-nav li a, .faculty ul li, .faculty .tab-pane{
+
+	color: #fff;
+
+}
+
+.faculty span, #program_details span{
+
+	display: none;
+
+}
+
+.orbit-nav > li > a:hover{
+
+    text-decoration: none;
+
+    background-color: #eeeeee;
+
+    color: #000 !important;
+
+}
+
+.orbit-tabs-style-1 .orbit-nav > li.active > a {
+
+    color: #fff !important;
+
+}
+
+.orbit-tabs-style-1 .orbit-nav > li.active > a:before {
+
+    z-index: 10;
+
+}
+
+a.vision-button.coffee, .tt-cb-title-coffee, .tt-dropcap-coffee .tt-dropcap-square, .tt-dropcap-coffee .tt-dropcap-round, .tt-tabcolor-coffee.orbit-tabs-style-1 .orbit-nav > li.active > a {
+
+    background-color: #7f100f;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#7f100f), to(#7f100f));
+
+    background-image: -webkit-linear-gradient(top, #7f100f, #2E1C10);
+
+    background-image: -moz-linear-gradient(top, #9A6742, #2E1C10);
+
+    background-image: -o-linear-gradient(top, #9A6742, #2E1C10);
+
+    background-image: linear-gradient(to bottom, #7f100f, #2E1C10);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#9A6742', endColorstr='#2E1C10');
+
+}
+
+#program_details table{
+
+    border: 1px solid #7f100f;
+
+    margin-bottom: 15px;
+
+    text-align: left;
+
+    border-collapse: inherit;
+
+}
+
+#program_details table strong {
+
+    width: 100%;
+
+    background: #7f100f;
+
+    color: #fff;
+
+    padding: 5px 10px;
+
+    height: 66px;
+
+    float: left;
+
+    clear: both;
+
+}
+
+#program_details table td, #program_details table th{
+
+   color: #666 !important;
+
+}
+
+#program_details table ol, #program_details table ul{
+
+	clear: both;
+
+}
+
+#program_details table tr.pro_table_title{
+
+   background: #7f100f !important;
+
+   color: #fff;
+
+}
+
+#program_details table tr{
+
+   background: #fafafa !important;
+
+   color: #666 !important;
+
+}
+
+#program_details table tr td:hover{
+
+   background: #fafafa !important;
+
+   color: #666 !important;
+
+}
+
+#program_details table td,#program_details table th{
+
+    vertical-align: middle;
+
+    color: #000 !important;
+
+}
+
+#row_add_form{
+
+    display: none;
+
+}
+
+#text_2{
+
+    display: none !important;
+
+}
+
+/**/
+
+/*for slider*/
+
+#wrap {
+
+    overflow: hidden !important;
+
+}
+
+#side_form_close {
+
+    float: right;
+
+    width: 30px;
+
+    height: 30px;
+
+    background: #e75a23;
+
+    text-align: center;
+
+    color: #fff;
+
+    border-radius: 50%;
+
+    line-height: 28px;
+
+    margin-right: 2px;
+
+    border: 1px solid #fff;
+
+    font-size: 18px;
+
+}
+
+#slider_form{
+
+	padding: 20px;
+
+	overflow: hidden;
+
+}
+
+.slider_form_back{
+
+	border: 2px solid #f36f24;
+
+    background: rgba(130, 44, 46, 0.71);
+
+}
+
+#slider_form ::placeholder, #slider_form  .form-control{
+
+	color: #000;
+
+}
+
+#slider_form .p0{
+
+	overflow: hidden;
+
+	padding: 0px;
+
+}
+
+#slider_form label, #slider_form h2{
+
+	color: #fff;
+
+	font-weight: normal;
+
+}
+
+#slider_form .pg_course{
+
+    display: none;
+
+}
+
+.btn-box{
+
+	padding-top: 10px;
+
+}
+
+.btn-box .wpcf7-submit{
+
+	padding: 10px 25px;
+
+	border: 1px solid #fff;
+
+    background-color: #7f100f;
+
+    color:#fff;
+
+}
+
+#slider_form .alert-success, #slider_form .alert-danger {
+
+    display: none;
+
+    margin-bottom: 0px;
+
+}
+
+#my_events h4{
+
+	text-align: center !important;
+
+	margin: 0px;
+
+    border-bottom: 1px solid rgba(0,0,0,.12);
+
+    padding: 15px 0px;
+
+    font-weight: 400;
+
+    font-size: 14px;
+
+    color: gray;
+
+    line-height: 1.5;
+
+}
+
+#my_events .vc_grid-item-mini{
+
+    border: 1px solid rgba(0,0,0,.12);
+
+    background: #fff;
+
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.12) -moz-box-shadow:0 1px 0 rgba(0,0,0,.12);
+
+    box-shadow: 0 1px 0 rgba(0,0,0,.12);
+
+}
+
+#my_events .vc-zone-link{
+
+	border-bottom: 8px solid #cf6e6e;
+
+}
+
+#my_events .vc_btn3-container{
+
+	text-align: center;
+
+}
+
+#my_events .vc_btn3{
+
+	border: none;
+
+	background: #7f100f;
+
+}
+
+#my_events .vc_btn3-left .vc_gitem-link:hover{
+
+	background: #a23938;
+
+}
+
+.single-post-content .content-image {
+
+    text-align: left;
+
+}
+
+.single-post-content .content-image img{
+
+    border: 5px solid #EBEBEB;
+
+}
+
+#my_news .vc_gitem-animated-block{
+
+    display: none;
+
+} 
+
+#my_news .vc_btn3-container{
+
+    text-align: right;
+
+}
+
+#my_news .vc_gitem-col{
+
+    padding-top: 20px;
+
+}    
+
+/*end for slider*/
+
+    
+
+@media (max-width: 1100px){
+
+	.insta_box .vc_column-inner{
+
+		width: 93%;
+
+	}
+
+	.ri-grid.apif-ri-grid li{
+
+		height: 55px !important;
+
+		width: 90px !important;
+
+		margin: 6px 22px;
+
+		background: #fff;
+
+	}
+
+	.ri-grid.apif-ri-grid li:last-child{
+
+		display: block;
+
+	}
+
+}
+
+/*adword css start*/
+
+#adword_form {
+
+    background: rgba(130, 44, 46, 0.75);
+
+    border: 1px solid #ffffff73;
+
+    padding: 20px;
+
+}
+
+#adword_form label{
+
+    color: #fff;
+
+    width: 100%;
+
+}
+
+.p0{
+
+    padding: 0px;
+
+    overflow: hidden;
+
+}
+
+input:not([type]):focus, input[type="select"]:focus, input[type="color"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="text"]:focus, .form-control:not(select):focus, textarea:focus{
+
+	background: #8c8c8c;
+
+	color: #fff;
+
+    font-weight: normal;
+
+}
+
+#adword_form .wpcf7-mail-sent-ng {
+
+    border: 2px solid #ff0000;
+
+    float: left;
+
+    color: red;
+
+}
+
+#adword_form select{
+
+	width: 100%;
+
+}
+
+#adword_form input[type="text"],input[type="email"], input[type="tel"]{
+
+    width: 100%;
+
+    color: #fff;
+
+    font-weight: normal;
+
+    outline: none;
+
+    font-size: 15px;
+
+}
+
+.wpb_layerslider_element.wpb_content_element.ls-direction-fix.ls-overflow-visible {
+
+    margin-bottom: 0px;
+
+}
+
+.btn-box{
+
+    text-align: center;
+
+}
+
+#adword_form input[type="submit"]{
+
+    color: #FFF;
+
+    background-color: #F90;
+
+}
+
+#adword_form input[type="submit"]:hover{
+
+    background-color: #e08700;
+
+}
+
+span.fa-stack.fa-3x {
+
+    width: 100%;
+
+}
+
+#course_spec h2.wpb_singleimage_heading {
+
+    font-size: 22px;
+
+    background: #753634;
+
+    text-align: center;
+
+    color: #fff;
+
+    padding: 10px 0px;
+
+}
+
+.awards1 .vision-icon-box, .awards2 .vision-icon-box, .awards3 .vision-icon-box, .awards4 .vision-icon-box{
+
+    padding: 15px;
+
+}
+
+#award .fa-inverse{
+
+	font-size: 80px;
+
+}
+
+#adword_form .wpcf7-validation-errors{
+
+    display: none !important; 
+
+}
+
+.step_logo {
+
+    width: 100%;
+
+    float: left;
+
+}
+
+.step_logo img{
+
+   height: 90px !important;
+
+}
+
+#course_fea .vision-icon-box{
+
+    box-shadow: none;
+
+    background: none !important;
+
+    padding: 15px;
+
+}
+
+#course_fea .vision-icon-box:hover{
+
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15) !important;
+
+}
+
+#course_fea_lp1 .vision-icon-box{
+
+	padding: 15px 0px;
+
+	margin-bottom: 0px !important;
+
+}
+
+/*adword css end*/
+
+@media (max-width: 767px){
+
+a.logo img{
+
+    position: relative;
+
+    height: 90px;
+
+}
+
+ul.nav.navbar-nav{
+
+	width: 100%;
+
+    border-bottom: solid 1px rgba(255,255,255,.15);
+
+}	
+
+#top-nav .navbar-nav>li:last-child>a {
+
+    border:none;
+
+}
+
+.insta_box .vc_column-inner {
+
+    height: 376px !important;
+
+    width: 97%;
+
+    float: left;
+
+}
+
+.ri-grid.apif-ri-grid li:last-child{
+
+    display: block;
+
+}
+
+.ri-grid.apif-ri-grid li {
+
+    display: table-cell;
+
+    text-align: center;
+
+    background: #fff;
+
+    height: 100px !important;
+
+    width: 21% !important;
+
+    margin: 6px 9px;
+
+}
+
+.ri-grid.apif-ri-grid ul li a {
+
+    text-align: center;
+
+    margin: 0 auto;
+
+    display: block;
+
+    width: 100% !important;
+
+}
+
+#custom_html-2, #custom_html-4, #custom_html-5, #custom_html-7{
+
+    width: 50%;
+
+    float: left;
+
+}
+
+#text-4, #text-5 {
+
+    width: 50%;
+
+    float: left;
+
+}
+
+.footer_bottom{
+
+    padding-top: 20px;
+
+}
+
+.tt_theme_speech .tt_info-left {
+
+    width: 100%;
+
+    text-align: center;
+
+    float: left;
+
+}
+
+#about_srisri {
+
+    background-position: 65% 0px;
+
+}
+
+#slider_add_form {
+
+    display: none !important;
+
+}
+
+#row_add_form{
+
+    display: block;
+
+}
+
+#row_add_form #adword_form {
+
+    width: 60%;
+
+    float: none;
+
+    text-align: left;
+
+}
+
+#row_add_form .col-sm-12{
+
+    margin: 0 auto;
+
+}
+
+#text_1{
+
+    display: none !important;
+
+}
+
+#text_2{
+
+    display: block !important;
+
+}
+
+.slider_logo{
+
+    height: 90px !important;
+
+}
+
+table.fact_table {
+
+    width: auto;
+
+}
+
+#course_fea_lp1 .vc_col-sm-3{
+
+	width: 50%;
+
+}
+
+}
+
+@media (max-width: 768px){
+
+.insta_box .vc_column-inner {
+
+    height: 380px !important;
+
+    width: 91%;
+
+    float: left;
+
+    padding-left: 10px;
+
+}
+
+.ri-grid.apif-ri-grid li{
+
+	height: 50px !important;
+
+	width: 65px !important;
+
+	margin: 9px 15px;
+
+}
+
+.footer_bottom{
+
+    padding-top: 20px;
+
+}
+
+.copyright, .footer-social {
+
+    float: left;
+
+    width: 100%;
+
+}
+
+#custom_html-2, #custom_html-4, #custom_html-5, #custom_html-7{
+
+    width: 50%;
+
+    float: left;
+
+}
+
+#text-4, #text-5 {
+
+    width: 50%;
+
+    float: left;
+
+}
+
+.ubermenu-skin-black-white-2.ubermenu-responsive-toggle {
+
+    display: none;
+
+}
+
+.pc.enable-mobile-menu .mobile-menu {
+
+    background: #7f100f;
+
+}
+
+.mobile-menu-wrap .mobile-menu-toggle {
+
+    background: #ce1212;
+
+}
+
+.mobile-menu li a:hover, .mobile-menu-wrap .mobile-menu-toggle:hover {
+
+    background: #cc2725;
+
+}
+
+.vc_sep_width_60, .vc_sep_width_50, .vc_sep_width_40 {
+
+    width: 90%;
+
+}
+
+.social_img {
+
+    width: 33.33%;
+
+    float: left;
+
+    padding: 10px;
+
+}
+
+.vc_column_container{
+
+    margin-bottom: 10px
+
+}
+
+}
+
+@media (max-width: 991px){
+
+.ubermenu-responsive-default.ubermenu-responsive.ubermenu .ubermenu-nav {
+
+    float: left;
+
+    width: 100%;
+
+}
+
+.ubermenu-responsive-default.ubermenu.ubermenu-responsive .ubermenu-column:nth-of-type(2n+1) {
+
+    clear: none;
+
+}    
+
+ul.nav.navbar-nav.navbar-right {
+
+    width: 80%;
+
+}    
+
+.ri-grid.apif-ri-grid li{
+
+	height: 55px !important;
+
+	width: 60px !important;
+
+	margin: 6px 20px;
+
+	background: #fff;
+
+}
+
+.ri-grid.apif-ri-grid li:last-child{
+
+	display: block;
+
+}
+
+#custom_html-2, #custom_html-4, #custom_html-5, #custom_html-7{
+
+	width: 50%;
+
+	float: left;
+
+}
+
+#text-4, #text-5 {
+
+    width: 50%;
+
+    float: left;
+
+}
+
+.copyright, .footer-social {
+
+    float: left;
+
+    width: 50%;
+
+}
+
+.footer_bottom {
+
+    padding-top: 20px;
+
+}
+
+#my_blog_post .vc_grid-filter-dropdown .vc_grid-styled-select select, .vc_grid-filter-select .vc_grid-styled-select select {
+
+    border: 1px solid #f90;
+
+    color: #f90;
+
+}
+
+}
+
+@media (max-width: 600px){
+
+#ubermenu-nav-main-2-primary-menus li {
+
+    width: 100% !important;
+
+    min-width: 100%;
+
+    float: left;
+
+}    
+
+#custom_html-2, #custom_html-4, #custom_html-5, #custom_html-7{
+
+    width: 100%;
+
+    float: left;
+
+}
+
+.ri-grid.apif-ri-grid li{
+
+    width: 21%;
+
+}
+
+#text-4, #text-5 {
+
+    width: 50%;
+
+    float: left;
+
+}
+
+#text-5 .pull-right{
+
+    width: 100%;
+
+    float: left;
+
+}
+
+.copyright, .footer-social{
+
+	width: 100%;
+
+}
+
+.ppsPopupShell {
+
+    left: 0 !important;
+
+    width: auto !important;
+
+}
+
+}
+
+@media (max-width: 480px) 
+
+{
+
+.vc_sep_width_60, .vc_sep_width_50, .vc_sep_width_40 {
+
+    width: 100%;
+
+}
+
+.vc_separator h4 {
+
+    font-size: 25px;
+
+}    
+
+.apply_now_btn a {
+
+    padding: 10px 15px !important;
+
+}    
+
+.copyright, .footer-social {
+
+    float: left;
+
+    width: 100%;
+
+}	
+
+#custom_html-2, #custom_html-4, #custom_html-5, #custom_html-7{
+
+    width: 100%;
+
+    float: left;
+
+}
+
+#text-4, #text-5 {
+
+    width: 100%;
+
+    float: left;
+
+    text-align: center;
+
+}
+
+#text-5 .pull-right{
+
+    width: 100%;
+
+    float: left;
+
+}
+
+.slider_logo {
+
+    height: 70px !important;
+
+}
+
+#row_add_form #adword_form {
+
+    width: 100%;
+
+}
+
+}

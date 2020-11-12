@@ -1,0 +1,118 @@
+<html>
+
+<head>
+	<style>
+		.container{
+			width:70%;
+			
+		}
+		
+		
+		.progressbar{
+			
+			counter-reset: step1;
+			
+		}
+		.progressbar li{
+			list-style-type:none;
+			float:left;
+			width: 33.33%;
+			position: relative;
+			text-align: center;
+		  
+			
+		} 
+		.progressbar li:before{
+			content: counter(step);
+			counter-increment:step;
+			width: 40px;
+			height:30px;
+			line-height:none;
+			border:1px solid green;
+			display: block;
+			text-align:center;
+			margin:0 auto 10px auto;
+			border-radius: 70%;
+			background-color: greenyellow;
+			
+		}
+		.progressbar li:after{
+			content:"";
+			position: absolute;
+			width: 100%;
+			height: 2px;
+	        background-color:limegreen;
+			top:15px;
+			left:-50%;
+	         z-index: -1;
+			
+		}
+	
+		.progressbar li:first-child:after{
+			
+			
+			content:none;
+			
+		}
+		
+		.progressbar li.active: {
+			color:limegreen;
+			
+		}
+		.progressbar li.active:before{
+			border-color:green;
+			
+	
+			
+		}
+		
+		.progressbar li.active +  li:after{
+			background-color: limegreen;
+			
+		}
+	</style>
+	
+	
+	</head>
+<body>
+	<div class="container"  >
+		<ul class="progressbar"  >
+			<li>step1 </li>
+		<li>step2 </li>
+			<li>step3 </li>
+		
+		</ul>
+	
+	</div>
+	
+	
+	
+<script>
+var i = 0;
+function move() {
+  if (i == 0) {
+    i = 1;
+    var elem = document.getElementById("myBar");
+    var width = 10;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 100) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        width++;
+        elem.style.width = width + "%";
+        elem.innerHTML = width  + "%";
+      }
+    }
+  }
+}
+</script>
+
+	
+	
+	
+	</body>
+
+
+</html>
